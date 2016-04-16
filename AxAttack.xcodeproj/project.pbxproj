@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BC307ED1CC303B100178A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC307EC1CC303B100178A4E /* AppDelegate.swift */; };
+		7BC307EF1CC303B100178A4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC307EE1CC303B100178A4E /* ViewController.swift */; };
+		7BC307F21CC303B100178A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC307F01CC303B100178A4E /* Main.storyboard */; };
+		7BC307F41CC303B100178A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC307F31CC303B100178A4E /* Assets.xcassets */; };
+		7BC307F71CC303B100178A4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC307F51CC303B100178A4E /* LaunchScreen.storyboard */; };
+		7BC308021CC303B200178A4E /* AxAttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC308011CC303B200178A4E /* AxAttackTests.swift */; };
+		7BC3080D1CC303B200178A4E /* AxAttackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3080C1CC303B200178A4E /* AxAttackUITests.swift */; };
+		7BC308121CC303B200178A4E /* AxAttack WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7BC308111CC303B200178A4E /* AxAttack WatchKit App.app */; };
+		7BC308181CC303B200178A4E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC308161CC303B200178A4E /* Interface.storyboard */; };
+		7BC3081A1CC303B200178A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC308191CC303B200178A4E /* Assets.xcassets */; };
+		7BC308211CC303B200178A4E /* AxAttack WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7BC308201CC303B200178A4E /* AxAttack WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7BC308281CC303B200178A4E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC308271CC303B200178A4E /* InterfaceController.swift */; };
+		7BC3082A1CC303B200178A4E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC308291CC303B200178A4E /* ExtensionDelegate.swift */; };
+		7BC3082C1CC303B200178A4E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3082B1CC303B200178A4E /* NotificationController.swift */; };
+		7BC3082E1CC303B200178A4E /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3082D1CC303B200178A4E /* GlanceController.swift */; };
+		7BC308301CC303B200178A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC3082F1CC303B200178A4E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BC307FE1CC303B200178A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BC307E11CC303B100178A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC307E81CC303B100178A4E;
+			remoteInfo = AxAttack;
+		};
+		7BC308091CC303B200178A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BC307E11CC303B100178A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC307E81CC303B100178A4E;
+			remoteInfo = AxAttack;
+		};
+		7BC308131CC303B200178A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BC307E11CC303B100178A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC308101CC303B200178A4E;
+			remoteInfo = "AxAttack WatchKit App";
+		};
+		7BC308221CC303B200178A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BC307E11CC303B100178A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC3081F1CC303B200178A4E;
+			remoteInfo = "AxAttack WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BC308371CC303B200178A4E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7BC308211CC303B200178A4E /* AxAttack WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC3083B1CC303B200178A4E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7BC308121CC303B200178A4E /* AxAttack WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7BC307E91CC303B100178A4E /* AxAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC307EC1CC303B100178A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BC307EE1CC303B100178A4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BC307F11CC303B100178A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BC307F31CC303B100178A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BC307F61CC303B100178A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BC307F81CC303B100178A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC307FD1CC303B200178A4E /* AxAttackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxAttackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC308011CC303B200178A4E /* AxAttackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxAttackTests.swift; sourceTree = "<group>"; };
+		7BC308031CC303B200178A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC308081CC303B200178A4E /* AxAttackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxAttackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC3080C1CC303B200178A4E /* AxAttackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxAttackUITests.swift; sourceTree = "<group>"; };
+		7BC3080E1CC303B200178A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC308111CC303B200178A4E /* AxAttack WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AxAttack WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC308171CC303B200178A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7BC308191CC303B200178A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BC3081B1CC303B200178A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC308201CC303B200178A4E /* AxAttack WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AxAttack WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC308261CC303B200178A4E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7BC308271CC303B200178A4E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7BC308291CC303B200178A4E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7BC3082B1CC303B200178A4E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7BC3082D1CC303B200178A4E /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		7BC3082F1CC303B200178A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BC308311CC303B200178A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BC307E61CC303B100178A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC307FA1CC303B200178A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC308051CC303B200178A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC3081D1CC303B200178A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BC307E01CC303B100178A4E = {
+			isa = PBXGroup;
+			children = (
+				7BC307EB1CC303B100178A4E /* AxAttack */,
+				7BC308001CC303B200178A4E /* AxAttackTests */,
+				7BC3080B1CC303B200178A4E /* AxAttackUITests */,
+				7BC308151CC303B200178A4E /* AxAttack WatchKit App */,
+				7BC308241CC303B200178A4E /* AxAttack WatchKit Extension */,
+				7BC307EA1CC303B100178A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BC307EA1CC303B100178A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BC307E91CC303B100178A4E /* AxAttack.app */,
+				7BC307FD1CC303B200178A4E /* AxAttackTests.xctest */,
+				7BC308081CC303B200178A4E /* AxAttackUITests.xctest */,
+				7BC308111CC303B200178A4E /* AxAttack WatchKit App.app */,
+				7BC308201CC303B200178A4E /* AxAttack WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BC307EB1CC303B100178A4E /* AxAttack */ = {
+			isa = PBXGroup;
+			children = (
+				7BC307EC1CC303B100178A4E /* AppDelegate.swift */,
+				7BC307EE1CC303B100178A4E /* ViewController.swift */,
+				7BC307F01CC303B100178A4E /* Main.storyboard */,
+				7BC307F31CC303B100178A4E /* Assets.xcassets */,
+				7BC307F51CC303B100178A4E /* LaunchScreen.storyboard */,
+				7BC307F81CC303B100178A4E /* Info.plist */,
+			);
+			path = AxAttack;
+			sourceTree = "<group>";
+		};
+		7BC308001CC303B200178A4E /* AxAttackTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BC308011CC303B200178A4E /* AxAttackTests.swift */,
+				7BC308031CC303B200178A4E /* Info.plist */,
+			);
+			path = AxAttackTests;
+			sourceTree = "<group>";
+		};
+		7BC3080B1CC303B200178A4E /* AxAttackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BC3080C1CC303B200178A4E /* AxAttackUITests.swift */,
+				7BC3080E1CC303B200178A4E /* Info.plist */,
+			);
+			path = AxAttackUITests;
+			sourceTree = "<group>";
+		};
+		7BC308151CC303B200178A4E /* AxAttack WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7BC308161CC303B200178A4E /* Interface.storyboard */,
+				7BC308191CC303B200178A4E /* Assets.xcassets */,
+				7BC3081B1CC303B200178A4E /* Info.plist */,
+			);
+			path = "AxAttack WatchKit App";
+			sourceTree = "<group>";
+		};
+		7BC308241CC303B200178A4E /* AxAttack WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7BC308271CC303B200178A4E /* InterfaceController.swift */,
+				7BC308291CC303B200178A4E /* ExtensionDelegate.swift */,
+				7BC3082B1CC303B200178A4E /* NotificationController.swift */,
+				7BC3082D1CC303B200178A4E /* GlanceController.swift */,
+				7BC3082F1CC303B200178A4E /* Assets.xcassets */,
+				7BC308311CC303B200178A4E /* Info.plist */,
+				7BC308251CC303B200178A4E /* Supporting Files */,
+			);
+			path = "AxAttack WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7BC308251CC303B200178A4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BC308261CC303B200178A4E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BC307E81CC303B100178A4E /* AxAttack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC3083C1CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttack" */;
+			buildPhases = (
+				7BC307E51CC303B100178A4E /* Sources */,
+				7BC307E61CC303B100178A4E /* Frameworks */,
+				7BC307E71CC303B100178A4E /* Resources */,
+				7BC3083B1CC303B200178A4E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC308141CC303B200178A4E /* PBXTargetDependency */,
+			);
+			name = AxAttack;
+			productName = AxAttack;
+			productReference = 7BC307E91CC303B100178A4E /* AxAttack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BC307FC1CC303B200178A4E /* AxAttackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC3083F1CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttackTests" */;
+			buildPhases = (
+				7BC307F91CC303B200178A4E /* Sources */,
+				7BC307FA1CC303B200178A4E /* Frameworks */,
+				7BC307FB1CC303B200178A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC307FF1CC303B200178A4E /* PBXTargetDependency */,
+			);
+			name = AxAttackTests;
+			productName = AxAttackTests;
+			productReference = 7BC307FD1CC303B200178A4E /* AxAttackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BC308071CC303B200178A4E /* AxAttackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC308421CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttackUITests" */;
+			buildPhases = (
+				7BC308041CC303B200178A4E /* Sources */,
+				7BC308051CC303B200178A4E /* Frameworks */,
+				7BC308061CC303B200178A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC3080A1CC303B200178A4E /* PBXTargetDependency */,
+			);
+			name = AxAttackUITests;
+			productName = AxAttackUITests;
+			productReference = 7BC308081CC303B200178A4E /* AxAttackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7BC308101CC303B200178A4E /* AxAttack WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC308381CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttack WatchKit App" */;
+			buildPhases = (
+				7BC3080F1CC303B200178A4E /* Resources */,
+				7BC308371CC303B200178A4E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC308231CC303B200178A4E /* PBXTargetDependency */,
+			);
+			name = "AxAttack WatchKit App";
+			productName = "AxAttack WatchKit App";
+			productReference = 7BC308111CC303B200178A4E /* AxAttack WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7BC3081F1CC303B200178A4E /* AxAttack WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC308341CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttack WatchKit Extension" */;
+			buildPhases = (
+				7BC3081C1CC303B200178A4E /* Sources */,
+				7BC3081D1CC303B200178A4E /* Frameworks */,
+				7BC3081E1CC303B200178A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AxAttack WatchKit Extension";
+			productName = "AxAttack WatchKit Extension";
+			productReference = 7BC308201CC303B200178A4E /* AxAttack WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BC307E11CC303B100178A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tushar Sharma";
+				TargetAttributes = {
+					7BC307E81CC303B100178A4E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HSXW396TKA;
+					};
+					7BC307FC1CC303B200178A4E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HSXW396TKA;
+						TestTargetID = 7BC307E81CC303B100178A4E;
+					};
+					7BC308071CC303B200178A4E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HSXW396TKA;
+						TestTargetID = 7BC307E81CC303B100178A4E;
+					};
+					7BC308101CC303B200178A4E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HSXW396TKA;
+					};
+					7BC3081F1CC303B200178A4E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HSXW396TKA;
+					};
+				};
+			};
+			buildConfigurationList = 7BC307E41CC303B100178A4E /* Build configuration list for PBXProject "AxAttack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BC307E01CC303B100178A4E;
+			productRefGroup = 7BC307EA1CC303B100178A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BC307E81CC303B100178A4E /* AxAttack */,
+				7BC307FC1CC303B200178A4E /* AxAttackTests */,
+				7BC308071CC303B200178A4E /* AxAttackUITests */,
+				7BC308101CC303B200178A4E /* AxAttack WatchKit App */,
+				7BC3081F1CC303B200178A4E /* AxAttack WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BC307E71CC303B100178A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC307F71CC303B100178A4E /* LaunchScreen.storyboard in Resources */,
+				7BC307F41CC303B100178A4E /* Assets.xcassets in Resources */,
+				7BC307F21CC303B100178A4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC307FB1CC303B200178A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC308061CC303B200178A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC3080F1CC303B200178A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC3081A1CC303B200178A4E /* Assets.xcassets in Resources */,
+				7BC308181CC303B200178A4E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC3081E1CC303B200178A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC308301CC303B200178A4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BC307E51CC303B100178A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC307EF1CC303B100178A4E /* ViewController.swift in Sources */,
+				7BC307ED1CC303B100178A4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC307F91CC303B200178A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC308021CC303B200178A4E /* AxAttackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC308041CC303B200178A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC3080D1CC303B200178A4E /* AxAttackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC3081C1CC303B200178A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC3082C1CC303B200178A4E /* NotificationController.swift in Sources */,
+				7BC3082A1CC303B200178A4E /* ExtensionDelegate.swift in Sources */,
+				7BC308281CC303B200178A4E /* InterfaceController.swift in Sources */,
+				7BC3082E1CC303B200178A4E /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BC307FF1CC303B200178A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BC307E81CC303B100178A4E /* AxAttack */;
+			targetProxy = 7BC307FE1CC303B200178A4E /* PBXContainerItemProxy */;
+		};
+		7BC3080A1CC303B200178A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BC307E81CC303B100178A4E /* AxAttack */;
+			targetProxy = 7BC308091CC303B200178A4E /* PBXContainerItemProxy */;
+		};
+		7BC308141CC303B200178A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BC308101CC303B200178A4E /* AxAttack WatchKit App */;
+			targetProxy = 7BC308131CC303B200178A4E /* PBXContainerItemProxy */;
+		};
+		7BC308231CC303B200178A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BC3081F1CC303B200178A4E /* AxAttack WatchKit Extension */;
+			targetProxy = 7BC308221CC303B200178A4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BC307F01CC303B100178A4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC307F11CC303B100178A4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BC307F51CC303B100178A4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC307F61CC303B100178A4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7BC308161CC303B200178A4E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC308171CC303B200178A4E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BC308321CC303B200178A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BC308331CC303B200178A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BC308351CC303B200178A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AxAttack WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttack.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		7BC308361CC303B200178A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AxAttack WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttack.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		7BC308391CC303B200178A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AxAttack_WatchKit_Extension;
+				INFOPLIST_FILE = "AxAttack WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttack.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		7BC3083A1CC303B200178A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AxAttack_WatchKit_Extension;
+				INFOPLIST_FILE = "AxAttack WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttack.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		7BC3083D1CC303B200178A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AxAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BC3083E1CC303B200178A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AxAttack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BC308401CC303B200178A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AxAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxAttack.app/AxAttack";
+			};
+			name = Debug;
+		};
+		7BC308411CC303B200178A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AxAttackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxAttack.app/AxAttack";
+			};
+			name = Release;
+		};
+		7BC308431CC303B200178A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AxAttackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AxAttack;
+			};
+			name = Debug;
+		};
+		7BC308441CC303B200178A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AxAttackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AxAttack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BC307E41CC303B100178A4E /* Build configuration list for PBXProject "AxAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC308321CC303B200178A4E /* Debug */,
+				7BC308331CC303B200178A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC308341CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttack WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC308351CC303B200178A4E /* Debug */,
+				7BC308361CC303B200178A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BC308381CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttack WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC308391CC303B200178A4E /* Debug */,
+				7BC3083A1CC303B200178A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BC3083C1CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC3083D1CC303B200178A4E /* Debug */,
+				7BC3083E1CC303B200178A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BC3083F1CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC308401CC303B200178A4E /* Debug */,
+				7BC308411CC303B200178A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BC308421CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC308431CC303B200178A4E /* Debug */,
+				7BC308441CC303B200178A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BC307E11CC303B100178A4E /* Project object */;
+}
