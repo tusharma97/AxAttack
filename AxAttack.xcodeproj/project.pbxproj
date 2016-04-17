@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B2FD3F91CC3B3160046B8A6 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FD3F81CC3B3160046B8A6 /* Music.swift */; };
+		7B2FD4011CC3B7720046B8A6 /* calm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2FD4001CC3B7720046B8A6 /* calm.mp3 */; };
+		7B2FD4021CC3B7720046B8A6 /* calm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2FD4001CC3B7720046B8A6 /* calm.mp3 */; };
 		7BC307ED1CC303B100178A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC307EC1CC303B100178A4E /* AppDelegate.swift */; };
 		7BC307EF1CC303B100178A4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC307EE1CC303B100178A4E /* ViewController.swift */; };
 		7BC307F21CC303B100178A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC307F01CC303B100178A4E /* Main.storyboard */; };
@@ -23,6 +26,17 @@
 		7BC3082C1CC303B200178A4E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3082B1CC303B200178A4E /* NotificationController.swift */; };
 		7BC3082E1CC303B200178A4E /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3082D1CC303B200178A4E /* GlanceController.swift */; };
 		7BC308301CC303B200178A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC3082F1CC303B200178A4E /* Assets.xcassets */; };
+		7BC308461CC30CF100178A4E /* FirstAid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC308451CC30CF100178A4E /* FirstAid.png */; };
+		7BC3084D1CC34AF000178A4E /* Breathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3084C1CC34AF000178A4E /* Breathing.swift */; };
+		7BC308521CC3764D00178A4E /* Gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC3084E1CC3764D00178A4E /* Gallery.png */; };
+		7BC308531CC3764D00178A4E /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC3084F1CC3764D00178A4E /* Icon.jpg */; };
+		7BC308541CC3764D00178A4E /* Meditation.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC308501CC3764D00178A4E /* Meditation.png */; };
+		7BC308551CC3764D00178A4E /* Red Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC308511CC3764D00178A4E /* Red Cross.png */; };
+		7BC308571CC3774500178A4E /* heart-rate-ekg-ecg-heart-beat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC308561CC3774500178A4E /* heart-rate-ekg-ecg-heart-beat.jpg */; };
+		7BC308611CC38CBA00178A4E /* landscape-mountains-nature-clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC308601CC38CBA00178A4E /* landscape-mountains-nature-clouds.jpg */; };
+		7BC308621CC38CBA00178A4E /* landscape-mountains-nature-clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC308601CC38CBA00178A4E /* landscape-mountains-nature-clouds.jpg */; };
+		7BC308641CC394C600178A4E /* mssg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC308631CC394C600178A4E /* mssg.swift */; };
+		7BC308661CC398A100178A4E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC308651CC398A100178A4E /* MessageUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +96,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B2FD3F81CC3B3160046B8A6 /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		7B2FD4001CC3B7720046B8A6 /* calm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = calm.mp3; path = "Background Music/calm.mp3"; sourceTree = SOURCE_ROOT; };
 		7BC307E91CC303B100178A4E /* AxAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC307EC1CC303B100178A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BC307EE1CC303B100178A4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +123,18 @@
 		7BC3082D1CC303B200178A4E /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 		7BC3082F1CC303B200178A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BC308311CC303B200178A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC308451CC30CF100178A4E /* FirstAid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FirstAid.png; sourceTree = "<group>"; };
+		7BC308491CC3174D00178A4E /* AxAttack WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AxAttack WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		7BC3084C1CC34AF000178A4E /* Breathing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Breathing.swift; sourceTree = "<group>"; };
+		7BC3084E1CC3764D00178A4E /* Gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gallery.png; sourceTree = "<group>"; };
+		7BC3084F1CC3764D00178A4E /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
+		7BC308501CC3764D00178A4E /* Meditation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meditation.png; sourceTree = "<group>"; };
+		7BC308511CC3764D00178A4E /* Red Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Cross.png"; sourceTree = "<group>"; };
+		7BC308561CC3774500178A4E /* heart-rate-ekg-ecg-heart-beat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "heart-rate-ekg-ecg-heart-beat.jpg"; sourceTree = "<group>"; };
+		7BC308601CC38CBA00178A4E /* landscape-mountains-nature-clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "landscape-mountains-nature-clouds.jpg"; path = "../landscape-mountains-nature-clouds.jpg"; sourceTree = "<group>"; };
+		7BC308631CC394C600178A4E /* mssg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mssg.swift; sourceTree = "<group>"; };
+		7BC308651CC398A100178A4E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7BC308671CC398E900178A4E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC308661CC398A100178A4E /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +173,7 @@
 		7BC307E01CC303B100178A4E = {
 			isa = PBXGroup;
 			children = (
+				7BC308671CC398E900178A4E /* Social.framework */,
 				7BC307EB1CC303B100178A4E /* AxAttack */,
 				7BC308001CC303B200178A4E /* AxAttackTests */,
 				7BC3080B1CC303B200178A4E /* AxAttackUITests */,
@@ -199,7 +229,15 @@
 		7BC308151CC303B200178A4E /* AxAttack WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				7B2FD4001CC3B7720046B8A6 /* calm.mp3 */,
+				7BC308601CC38CBA00178A4E /* landscape-mountains-nature-clouds.jpg */,
+				7BC308561CC3774500178A4E /* heart-rate-ekg-ecg-heart-beat.jpg */,
+				7BC308451CC30CF100178A4E /* FirstAid.png */,
 				7BC308161CC303B200178A4E /* Interface.storyboard */,
+				7BC3084E1CC3764D00178A4E /* Gallery.png */,
+				7BC3084F1CC3764D00178A4E /* Icon.jpg */,
+				7BC308501CC3764D00178A4E /* Meditation.png */,
+				7BC308511CC3764D00178A4E /* Red Cross.png */,
 				7BC308191CC303B200178A4E /* Assets.xcassets */,
 				7BC3081B1CC303B200178A4E /* Info.plist */,
 			);
@@ -216,6 +254,7 @@
 				7BC3082F1CC303B200178A4E /* Assets.xcassets */,
 				7BC308311CC303B200178A4E /* Info.plist */,
 				7BC308251CC303B200178A4E /* Supporting Files */,
+				7BC308491CC3174D00178A4E /* AxAttack WatchKit App-Bridging-Header.h */,
 			);
 			path = "AxAttack WatchKit Extension";
 			sourceTree = "<group>";
@@ -224,8 +263,20 @@
 			isa = PBXGroup;
 			children = (
 				7BC308261CC303B200178A4E /* PushNotificationPayload.apns */,
+				7BC3084C1CC34AF000178A4E /* Breathing.swift */,
+				7B2FD3F81CC3B3160046B8A6 /* Music.swift */,
+				7BC308631CC394C600178A4E /* mssg.swift */,
+				7BC308691CC39B9800178A4E /* New Group */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BC308691CC39B9800178A4E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7BC308651CC398A100178A4E /* MessageUI.framework */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +384,11 @@
 					7BC307E81CC303B100178A4E = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = HSXW396TKA;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					7BC307FC1CC303B200178A4E = {
 						CreatedOnToolsVersion = 7.3;
@@ -406,7 +462,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BC3081A1CC303B200178A4E /* Assets.xcassets in Resources */,
+				7B2FD4011CC3B7720046B8A6 /* calm.mp3 in Resources */,
 				7BC308181CC303B200178A4E /* Interface.storyboard in Resources */,
+				7BC308531CC3764D00178A4E /* Icon.jpg in Resources */,
+				7BC308521CC3764D00178A4E /* Gallery.png in Resources */,
+				7BC308551CC3764D00178A4E /* Red Cross.png in Resources */,
+				7BC308571CC3774500178A4E /* heart-rate-ekg-ecg-heart-beat.jpg in Resources */,
+				7BC308611CC38CBA00178A4E /* landscape-mountains-nature-clouds.jpg in Resources */,
+				7BC308461CC30CF100178A4E /* FirstAid.png in Resources */,
+				7BC308541CC3764D00178A4E /* Meditation.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +479,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BC308301CC303B200178A4E /* Assets.xcassets in Resources */,
+				7BC308621CC38CBA00178A4E /* landscape-mountains-nature-clouds.jpg in Resources */,
+				7B2FD4021CC3B7720046B8A6 /* calm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,9 +517,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BC3082C1CC303B200178A4E /* NotificationController.swift in Sources */,
+				7BC308641CC394C600178A4E /* mssg.swift in Sources */,
 				7BC3082A1CC303B200178A4E /* ExtensionDelegate.swift in Sources */,
 				7BC308281CC303B200178A4E /* InterfaceController.swift in Sources */,
+				7B2FD3F91CC3B3160046B8A6 /* Music.swift in Sources */,
 				7BC3082E1CC303B200178A4E /* GlanceController.swift in Sources */,
+				7BC3084D1CC34AF000178A4E /* Breathing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,13 +694,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = AxAttack_WatchKit_Extension;
 				INFOPLIST_FILE = "AxAttack WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttack.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AxAttack WatchKit Extension/AxAttack WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -641,13 +714,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = AxAttack_WatchKit_Extension;
 				INFOPLIST_FILE = "AxAttack WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BlackPony.AxAttack.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AxAttack WatchKit Extension/AxAttack WatchKit App-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -740,6 +816,7 @@
 				7BC308361CC303B200178A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC308381CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttack WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -748,6 +825,7 @@
 				7BC3083A1CC303B200178A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC3083C1CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttack" */ = {
 			isa = XCConfigurationList;
@@ -756,6 +834,7 @@
 				7BC3083E1CC303B200178A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC3083F1CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttackTests" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +843,7 @@
 				7BC308411CC303B200178A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC308421CC303B200178A4E /* Build configuration list for PBXNativeTarget "AxAttackUITests" */ = {
 			isa = XCConfigurationList;
@@ -772,6 +852,7 @@
 				7BC308441CC303B200178A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

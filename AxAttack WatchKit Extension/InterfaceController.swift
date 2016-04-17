@@ -28,4 +28,22 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func onMenuPicTap() {
+        self.pushControllerWithName("Pictures",context: nil)
+        
+    }
+    @IBAction func onMenuMusicTap() {
+        self.pushControllerWithName("Music",context: nil)
+        
+    }
+    @IBAction func onMenuBreathTap() {
+        self.pushControllerWithName("Breath",context: nil)
+        
+    }
+    
+    @IBAction func onMenuHelpTap() {
+     self.pushControllerWithName("Help",context: nil)
+    }
+
+    
 }
